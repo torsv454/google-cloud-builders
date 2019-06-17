@@ -1,6 +1,4 @@
-# Tool builder: `gcr.io/cloud-builders/gradle`
-
-This Cloud Build builder runs the Gradle build tool.
+This Cloud Build builder runs the Gradle build tool (version 5.4.1!).
 
 ## Building this builder
 
