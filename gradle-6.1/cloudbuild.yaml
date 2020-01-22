@@ -7,7 +7,7 @@ steps:
       - "build"
       - "--build-arg=BASE_IMAGE=gcr.io/cloud-builders/javac:8"
       - "--build-arg=GRADLE_VERSION=6.1"
-      - "--build-arg=SHA=d364b7098b9f2e58579a3603dc0a12a1991353ac58ed339316e6762b21efba44"
+      - "--build-arg=SHA=d0c43d14e1c70a48b82442f435d06186351a2d290d72afd5b8866f15e6d7038a"
       - "--tag=gcr.io/$PROJECT_ID/gradle:6.1-jdk-8"
       - "--tag=gcr.io/$PROJECT_ID/java/gradle:6.1-jdk-8"
       - "."
